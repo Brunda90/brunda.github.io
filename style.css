@@ -1,0 +1,115 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.resume-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #333333;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555555;
+}
+
+header a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 1.8em;
+    color: #444444;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+ul li strong {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Section Content */
+section p {
+    margin: 5px 0;
+}
+
+section ul li {
+    line-height: 1.4;
+}
+
+section ul li:before {
+    content: "• ";
+    color: #007bff;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 0;
+    background: #007bff;
+    color: #ffffff;
+    font-size: 0.9em;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resume-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
